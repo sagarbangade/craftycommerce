@@ -1,93 +1,54 @@
-# CraftyCommerce
-
-## Overview
-
-CraftyCommerce is an online marketplace designed for buying and selling handmade goods. The platform connects artisans and craft enthusiasts, providing a user-friendly environment where sellers can showcase their unique products, and buyers can discover one-of-a-kind items.
+# CraftyComerce
 
 ## Project Purpose
 
-The primary goal of CraftyCommerce is to support independent artisans by providing them with a platform to sell their handmade goods. We aim to build a scalable, secure, and easy-to-use marketplace that can handle a large number of users and transactions.
-
-## Features
-
-- User Registration and Authentication: Secure login and registration for both buyers and sellers.
-- Product Listings: Sellers can create and manage their product listings, including photos, descriptions, and pricing.
-- Search and Filtering: Advanced search and filtering options to help buyers find exactly what they're looking for.
-- Shopping Cart and Checkout: A seamless shopping experience with an integrated shopping cart and multiple payment options.
-- Order Management: Tools for sellers to manage orders, process payments, and track shipping.
-- User Reviews and Ratings: Buyers can leave reviews and ratings for products and sellers to help build trust within the community.
+CraftyComerce is an e-commerce platform designed to provide a seamless shopping experience. The project focuses on essential features such as product listing, a shopping cart, and customer reviews. The aim is to create a fully functional and user-friendly platform that allows users to browse products, add them to their cart, and leave reviews.
 
 ## Development Team
 
-- Alice Green - Lead Developer
-- Bob Smith - Backend Developer
-- Charlie Brown - Frontend Developer
-- Dana White - UX/UI Designer
-- Eva Blue - QA Engineer
+- **Developer 1**: Alex Johnson (Frontend Developer)
+- **Developer 2**: Priya Mehta (Backend Developer)
+- **Developer 3**: Carlos Rivera (Full Stack Developer)
+- **Developer 4**: Emily Zhang (UI/UX Designer)
 
-## Technologies
+## Branches and Features Developed
 
-- Frontend: HTML, CSS, JavaScript, React
-- Backend: Node.js, Express
-- Database: MongoDB
-- Version Control: Git, GitHub
-- Deployment: Docker, AWS
+### 1. `product-listing`
 
-## Getting Started
+- **Purpose**: Implement the functionality for listing products available for purchase.
+- **Features Developed**:
+  - Created a basic layout for displaying products.
+  - Added a feature to sort products by categories.
+- **Notable Challenges**:
+  - Handling dynamic product data and ensuring the UI adapts to different screen sizes.
 
-### Prerequisites
+### 2. `feature-shopping-cart`
 
-To get started with CraftyCommerce, you'll need to have the following software installed on your machine:
+- **Purpose**: Develop a shopping cart where users can add, remove, and view items they intend to purchase.
+- **Features Developed**:
+  - Added basic cart functionality.
+  - Implemented cart persistence across sessions using local storage.
+- **Notable Challenges**:
+  - Ensuring cart data remains consistent even when users navigate away from the page.
 
-- Node.js
-- Git
-- MongoDB
-- Docker
+### 3. `feature-customer-reviews`
 
-### Installation
+- **Purpose**: Allow customers to leave reviews for products they've purchased.
+- **Features Developed**:
+  - Created a review submission form.
+  - Displayed user reviews under each product listing.
+- **Notable Challenges**:
+  - Implementing a star rating system that integrates with the review data.
 
-1. Clone the repository to your local machine:
+## Lessons Learned
 
-   git clone https://github.com/yourusername/CraftyCommerce.git
+Working on CraftyComerce provided valuable insights into the following:
 
-2. Navigate to the project directory:
+- **Branch Management**: Each feature was developed on its own branch, allowing for isolated development and easier troubleshooting.
+- **Collaboration**: Simulating a collaborative environment reinforced the importance of regular communication and updates to the master branch.
+- **Git Operations**: Regularly updating branches, managing pull requests, and merging changes ensured that the project remained on track and conflicts were minimized.
+- **Documentation**: Maintaining clear and concise documentation helped keep the project organized and made it easier to onboard new developers if needed.
 
-   cd CraftyCommerce
+## Final Notes
 
-3. Install the necessary dependencies:
-
-   npm install
-
-4. Create a `.env` file in the root directory and add your environment variables:
-
-   Example `.env` content:
-
-   MONGO_URI=your_mongo_uri
-   JWT_SECRET=your_jwt_secret
-
-5. Start the development server:
-
-   npm run dev
-
-6. Open your browser and navigate to `http://localhost:3000` to see the project in action.
-
-### Contributing
-
-We welcome contributions from the community! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes and commit them with a descriptive message.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
-
-### License
-
-This project is licensed under the MIT License.
-
-### Contact
-
-For any questions or feedback, please contact the development team:
-
-- Email: craftycommerce@example.com
-- GitHub Issues: https://github.com/yourusername/CraftyCommerce/issues
+All feature branches have been successfully merged into the master branch. The project is now ready for further development or deployment.
